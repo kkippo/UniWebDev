@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #901ad9;
+    color: white;
+    padding: 20px;
+}
+
+label{
+    display: block;
+    margin-top: 5px;
+}
+
+.form_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+option{
+    background-color: #debaff;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  width: 200px;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: none;
+}
+
+textarea{
+    resize: none;
+    margin-bottom: 0px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #debaff;
+    border: none;
+    cursor: pointer;
+    
+}
+
+  button:hover{
+    background-color: #b898d6;
+}
+
+.textarea_button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

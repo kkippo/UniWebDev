@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Просекина Альвина, 2 подгруппа, новички, задание 1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>ФОРМА</h1>
+<form class = "form_container">
+    <div>
+
+        <input type="text" id="fullname" name="fullname" placeholder="ФИО">
+    
+        <div>
+            <label>Пол</label> 
+            <label><input type="radio" name="gender" value="male">Муж.</label>
+            <label> <input type="radio" name="gender" value="female">Жен.</label>
+        </div>
+
+        <div>
+            <input type="password" id="password" name="password" placeholder="Пароль">
+        </div>
+
+        <label for="country">Страна</label>
+        <select name="country" id="country">
+            <option value="2">Россия</option>
+            <option value="3">United Kingdom</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Выберите</label>
+        <div class="checkbox_group">
+            <label><input type="checkbox" name="option1">Мороженое</label>
+            <label><input type="checkbox" name="option2">Мясо</label>
+            <label><input type="checkbox" name="option3">Салат</label>
+        </div>
+        <div class = textarea_button>
+            <textarea placeholder="Что вы любите, напишите..."></textarea>
+            <br>
+            <button type="submit">Отправить</button>
+        </div>
+    </div>
+</div>
+</form>
+    
+</body>
+</html>
+
+
