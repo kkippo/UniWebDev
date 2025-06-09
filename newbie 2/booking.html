@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>  
+    <title>booking</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Просекина Альвина, 2 подгруппа, новички, задание 2">
+</head>
+<body>
+    <form action="#">
+    <fieldset>
+        <legend>Ваша лучшая поездка</legend>
+        <h1> Забронируйте свое путешествие! </h1>
+
+        <div>
+            <label><input type="text" name="fullname" required> Ваше имя </label><br>
+            <label><input type="email" name="email" required>email</label><br>
+            <label>Тип путешествия</label><br>
+            <select name="trip_type" id="trip_type">
+                <option value="1">Экскурсионный тур</option>
+                <option value="2" selected>Пляжный отдых</option>
+                <option value="3">Приключения</option>
+                <option value="4">Круиз</option>
+            </select><br>
+            <label><input type="number" min="1" max="10">Количество путешественников</label><br>
+            <label><input type="date">Дата начала путешествия</label><br>
+            <label><textarea rows="4" cols="50"></textarea>Ваши пожелания</label><br>
+            <label><input type="checkbox" required>Я согласен на обработку персональных данных</label><br>
+            <button type="submit">Забронировать</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
